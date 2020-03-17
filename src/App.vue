@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div>
+  <div id="app">
   <h3 class="title"> Song list </h3>
   <Songlist class="content" :songs="songs" @passData="changeToPlaylist" /> 
   </div>
